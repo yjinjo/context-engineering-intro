@@ -16,7 +16,8 @@ from dataclasses import dataclass
 from typing import Optional, List
 from pydantic import BaseModel
 from pydantic_ai import Agent, RunContext
-from pydantic_ai.models.test import TestModel, FunctionModel
+from pydantic_ai.models.test import TestModel
+from pydantic_ai.models.function import FunctionModel
 
 
 @dataclass
